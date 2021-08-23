@@ -16,7 +16,6 @@ margin: 0 auto;
 background-color: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);
 }
 
-
 /*Header and Nav Bar*/
 .header h1{
  display: inline-block;
@@ -49,6 +48,8 @@ header nav {
 nav ul li{
   text-shadow: var(--shadow);
    margin-right: 30px;
+   text-decoration: underline;
+
 }
 
 a:link{
@@ -61,6 +62,7 @@ a:visited {
 }
 .about-nav:hover{
     cursor: pointer;
+    
 }
 
 /*Background Img and Caption*/
@@ -100,20 +102,19 @@ h1 {
   text-shadow: var(--shadow) ;
 }
 
-.paragraph{
-    text-decoration: none;
+.content{
     width: 900px;
-    display: block;
+   
     position: relative;
     left:600px;
     font-size: 20px;
     font-family: var(--body);
+    flex: 0 0 20%;
 }
 
 .about, .work, .contact{
-position: relative;
-left: 300px;
-top:150px;
+display: flex;
+margin-top: 30px;
 }
  
 /*Work application placeholders*/
