@@ -3,7 +3,6 @@
   padding: 0;
   margin: 0;
 }
-
 :root {
   --header: "Roboto", sans-serif;
   font-family: "Urbanist", sans-serif;
@@ -11,24 +10,15 @@
     Cantarell;
   --shadow: 5px 5px 5px gray;
 }
-
 body {
   overflow-x: hidden;
   width: 100%;
   margin: 0 auto;
-  background-color: radial-gradient(
-    circle at 10% 20%,
-    rgba(91, 173, 254, 0.46) 0%,
-    rgba(91, 224, 254, 0.46) 47.2%,
-    rgba(170, 254, 235, 0.43) 90%
-  );
 }
-
 .container {
   margin: 0px 2.5%;
   padding-top: 50px;
 }
-
 /*Header and Nav Bar*/
 .header h1 {
   display: inline-block;
@@ -37,11 +27,9 @@ body {
   font-size: 50px;
   font-style: bold;
 }
-
 header * {
   display: inline;
 }
-
 header {
   justify-content: space-between;
   position: absolute;
@@ -51,30 +39,25 @@ header {
   display: flex;
   padding: 20px;
 }
-
 header nav {
   font-family: var(--header);
   font-size: 25px;
   padding: 20px;
   margin-right: 20px;
 }
-
 nav ul li {
   text-shadow: var(--shadow);
   margin-right: 30px;
   text-decoration: underline;
 }
-
 a:link {
   text-decoration: none !important;
 }
-
 a:visited {
   color: black;
   text-decoration: none !important;
 }
 /*Background Img and Caption*/
-
 .background-image {
   height: 650px;
   width: 100%;
@@ -83,22 +66,6 @@ a:visited {
   background-position: center;
   padding-bottom: 50px;
 }
-
-/* .headshot{
-  height: 350px;
-  width: 350px;
-  float: right;
-  
-  top: 200px;
-  left: 1558px;
-  background-image: url("../images/headshot.jpg.") ;
-  border-radius: 10px 10px 0 0;
-  float: right;
-  position: relative;
-  background-position: center;
-  
-} */
-
 figcaption {
   position: relative;
   float: right;
@@ -127,21 +94,17 @@ h2 {
 h2 {
   padding-right: 50px;
 }
-
 article {
   padding-bottom: 35px;
 }
-
 .content {
   font-size: 20px;
   font-family: var(--body);
   flex: 0 0 10%;
 }
-
 .section {
   display: flex;
 }
-
 .section h2 {
   flex: 0 0 20%;
 }
@@ -153,7 +116,6 @@ article {
   width: 100%;
   justify-content: center;
 }
-
 .flexbox-item {
   flex: 0 0 39%;
   border: 3px solid black;
@@ -164,41 +126,37 @@ article {
   min-height: 200px;
   margin: 1%;
 }
-
 .flexbox-item:first-child {
   min-height: 325px;
   max-width: 100%;
   flex-basis: 80%;
   background-repeat: none;
 }
-
-/*Footer Contact Me Section*/
+/*Contact Me Section*/
 .footer {
   justify-content: center;
   display: flex;
   font-family: var(--body);
   text-decoration: none;
 }
-
 .footer ul li:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-
 .footer * {
   display: inline;
 }
-
 .footer ul li {
   padding-right: 200px;
   font-size: 25px;
 }
-
+/*Media Section resizing*/
 @media screen and (max-width: 992px) {
   .background-image body,
   header,
   h1 {
     width: 100%;
+    font-size: 35px;
   }
   article {
     padding-left: 0px;
@@ -212,27 +170,39 @@ article {
   body,
   header,
   h1 {
-    width: 100%;
+    width: fit-content;
+    font-size: 35px;
   }
   content,
   nav {
     width: 10%;
+    font-size: 12px;
   }
   .footer ul li {
     padding-right: 15px;
+    font-size: 15px
+  }
+  h2{
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 520px) {
   body,
   header,
   h1 {
-    width: 100%;
+    width: fit-content;
+    font-size: 35px;
   }
   content,
   nav {
     width: 10%;
+    
   }
   .footer ul li {
     padding-right: 15px;
+    font-size: 15px;
+  }
+    h2{
+    font-size: 25px;
   }
 }
