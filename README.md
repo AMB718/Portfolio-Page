@@ -10,10 +10,18 @@ In this assignment I have created a portfolio to show my current/future projects
 - CSS
 - Flexbox 
 
+## Images
+
+Images of my portfolio can be found below.
+
 ![Screenshot1](https://user-images.githubusercontent.com/87721575/130708714-12f84e4e-4bc6-4f74-9df0-247d2ec806e9.JPG)
 
 ![Screenshot2](https://user-images.githubusercontent.com/87721575/130708725-8f17fec8-4869-4931-9d69-841e0138b13c.JPG)
 
-My portfolio can be found hosted at the below Github link.
+## Contact/Questions
+
+My portfolio can be found hosted at the below Github link. 
 
 https://amb718.github.io/Portfolio-Page/ 
+
+You can contact me with any questions at annalisa.bauer1@gmail.com
