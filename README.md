@@ -12,7 +12,7 @@ In this assignment I have created a portfolio to show my current/future projects
 
 ## Images
 
-Images of my portfolio can be found below.
+A sized down image of my portfolio can be seen below.
 
 ![Screenshot1](https://user-images.githubusercontent.com/87721575/130708714-12f84e4e-4bc6-4f74-9df0-247d2ec806e9.JPG)
 
