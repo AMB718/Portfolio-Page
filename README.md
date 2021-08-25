@@ -2,7 +2,13 @@
 
 ## Description
 
-In this assignment I have created a portfolio to show my current/future projects. This is a place that I can showcase or display my work to future employers. I have provided contact information, a little about me, and a place holder for future work and for an image of myself to come soon.
+In this assignment I have created a portfolio to show my current/future projects. This is a place that I can showcase or display my work to future employers. I have provided contact information, a little about me, and a place holder for future work and for an image of myself to come soon. 
+
+## Technology 
+
+- HTML
+- CSS
+- Flexbox 
 
 ![Screenshot1](https://user-images.githubusercontent.com/87721575/130708714-12f84e4e-4bc6-4f74-9df0-247d2ec806e9.JPG)
 
