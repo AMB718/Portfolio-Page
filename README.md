@@ -22,6 +22,6 @@ A sized down image of my portfolio can be seen below.
 
 My portfolio can be found hosted at the below Github link. 
 
-https://amb718.github.io/Portfolio-Page/ 
+https://annalisambauer.github.io/Portfolio-Page/ 
 
 You can contact me with any questions at annalisa.bauer1@gmail.com
