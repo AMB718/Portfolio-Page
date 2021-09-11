@@ -12,46 +12,101 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&family=Urbanist:wght@700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
     <title>Annalisa Bauer's Portfolio</title>
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <h1 class="header">Annalisa Bauer</h1>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <span class="title mt-4">Annalisa Bauer</span>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+      <a href ="#about" class="navbar-item">
+        About Me
+      </a>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="#about">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+      <a href = '#work' class="navbar-item">
+        Work
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a href= '#contact' class="navbar-link">
+          Contact Me 
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            Phone: 928-606-7540
+          </a>
+          <a class="navbar-item"
+          href="mailto:annalisa.bauer1@gmail.com">
+            Email
+          </a>
+          <a class="navbar-item" href= '#contact'>
+            Contact
+          </a>
+            <a target="_blank" href= 'https://www.linkedin.com/in/annalisa-bauer/' class="navbar-item">
+            LinkedIn
+          </a>
+              <a target="_blank" href= 'https://github.com/annalisambauer' class="navbar-item">
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</nav>
     <div class="headshot"></div>
     <!-- Placeholder for image -->
     <div class="background-image">
-      <figcaption>Web Developement Student</figcaption>
     </div>
     <!-- Main body of page -->
     <main class="container">
       <section class="section">
-        <h2 id="about">About Me</h2>
+        <h2 class="subtitle" id="about">About Me</h2>
         <article>
+          <div class="columns">
+            <div class="column is-half is-offset-3">
           <div class="content">
+            <div class="card">
+  <div class="card-image pt-4">
+    <figure class="image is-5by3">
+      <img src="assets\images\LinkedIn Pic.jpg" alt="Placeholder image">
+    </figure>
+  </div>
+  <div class="card-content has-text-centered">
+    <div class="media">
+      <div class="media-content">
+        <p class="title is-4">Annalisa Bauer</p>
+        <p class="subtitle is-6">Web Development Student</p>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
             <p>
-              My name is Annalisa Bauer. I am a 26 year old student in the
+              My name is Annalisa Bauer. I am a 27 year old student in the
               University of Arizona Coding Bootcamp. I currently live in the
               Phoenix Metropolitan area and I have live in Arizona for 17 years.
               I am married to my husband of 4 years and have two dogs and two
               cats. In my downtime I enjoy hiking, traveling, and photography.
             </p>
-            <br />
+            <br/>
             <p>
               I recently decided on a career change from the mortgage home loan
               industry to web development. I was in the mortgage industry for
@@ -67,29 +122,40 @@
 
       <section class="section">
         <!-- flexboxes to display work -->
-        <h2 id="work">Work</h2>
+        <h2 class="subtitle" id="work">Work</h2>
         <div class="flexbox-container">
-          <div class="flexbox-item"><a href="#"></a></div>
-          <div class="flexbox-item"><a href="#"></a></div>
-          <div class="flexbox-item"><a href="#"></a></div>
+          <div class="flexbox-item" id='flex1'><a href="https://annalisambauer.github.io/coding-quiz/"class="box has-text-centered">
+  HTML/CSS/JavaScript
+</a></div>
+          <div class="flexbox-item" id='flex2'><a href="https://annalisambauer.github.io/daily-planner/" class="box has-text-centered">HTML/CSS/JavaScript/Local Storage</a></div>
+          <div class="flexbox-item" id='flex3'><a href="https://annalisambauer.github.io/daily-planner/" class="box has-text-centered">HTML/CSS/JavaScript</a></div>
           <div class="flexbox-item"><a href="#"></a></div>
           <div class="flexbox-item"><a href="#"></a></div>
         </div>
       </section>
-        <!-- End of page Contact me section -->
-      <h2 id="contact">Contact Me</h2>
-      <div class="footer">
-        <ul>
-          <li>928-606-7540</li>
-          <li><a href="mailto:annalisa.bauer1@gmail.com">Email</a></li>
-          <li>
-            <a href="https://github.com/AMB718" target="_blank">Git Hub</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/annalisa-bauer/"target="_blank">LinkedIn</a>
-          </li>
-        </ul>
-      </div>
+      <!-- End of page Contact me section -->
+      <h2 class="subtitle" id="contact">Contact Me</h2>
     </main>
+    <footer>
+    <div class="footer">
+      <ul>
+        <li>928-606-7540</li>
+        <li><a href="mailto:annalisa.bauer1@gmail.com">Email</a></li>
+        <li>
+          <a href="https://github.com/annalisambauer" target="_blank"
+            >Git Hub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/annalisa-bauer/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+    </div>
+    </footer>
+
   </body>
 </html>
