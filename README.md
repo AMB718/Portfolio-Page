@@ -14,9 +14,9 @@ In this assignment I have created a portfolio to show my current/future projects
 
 A sized down image of my portfolio can be seen below.
 
-![Screenshot1](https://user-images.githubusercontent.com/87721575/130708714-12f84e4e-4bc6-4f74-9df0-247d2ec806e9.JPG)
+![image](https://user-images.githubusercontent.com/87721575/132936432-65e38c8b-c98b-4e82-9c99-332106fc5d31.png)
+![image](https://user-images.githubusercontent.com/87721575/132936438-9102b625-1d74-4d88-a124-be6e78d7ae1b.png)
 
-![Screenshot2](https://user-images.githubusercontent.com/87721575/130708725-8f17fec8-4869-4931-9d69-841e0138b13c.JPG)
 
 ## Contact/Questions
 
