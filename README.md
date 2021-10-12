@@ -9,6 +9,7 @@ In this assignment I have created a portfolio to show my current/future projects
 - HTML
 - CSS
 - Flexbox 
+- Bootstrap
 
 ## Images
 
