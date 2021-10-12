@@ -112,6 +112,18 @@ background-position: center;
   background-position: center;
   background-size: contain;
 }
+#flex4{
+  background-image: url('../images/Team-Profile-Generator.PNG');
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+}
+#flex5{
+  background-image: url('../images/Note-Taker.PNG');
+  background-repeat: none;
+  background-position: center;
+  background-size: contain;
+}
 .flexbox-item:first-child {
   min-height: 325px;
   max-width: 100%;
